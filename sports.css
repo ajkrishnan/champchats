@@ -25,22 +25,27 @@ ul {
     display: block;
 }
 
-.list{
+.list {
     float: right;
     text-decoration: none;
 }
 
 li a {
     display: block;
-    color: white;
+    color: #fff;
     text-align: center;
     padding: 10px 20px;
     text-decoration: none;
 }
 
 li a.active {
-    color: orange;
-    border-bottom: 20px;
+    color: #FFA500;
+    border-bottom: 2px solid#FFA500;
+}
+
+.list :hover {
+    background-color: #000;
+    opacity: .3;
 }
 
 section {
@@ -53,11 +58,11 @@ section {
     color: blue;
     font-size: 25px;
 }
-#maintwo{
+
+#maintwo {
     text-align: center;
     color: blue;
     font-size: 20px;
-
 }
 
 #mainthree {
@@ -70,7 +75,7 @@ section {
 #blockone {
     opacity: .3;
     background-color: #4E4848;
-    color: white;
+    color: #fff;
     text-align: center;
     padding: 5px;
 }
@@ -78,23 +83,22 @@ section {
 #blocktwo {
     opacity: .3;
     background-color: #5257C2;
-    color: white;
+    color: #fff;
     text-align: center;
     padding: 5px;
     font-family: sans-serif;
 }
 
-
 #para1 {
     font-size: 15px;
-    color: white;
+    color: #fff;
     text-align: center;
 }
 
 #blockthree {
     opacity: .3;
     background-color: #6C6D7B;
-    color: white;
+    color: #fff;
     font-weight: bold;
     text-align: center;
     padding: 5px;
@@ -105,7 +109,6 @@ section {
 aside {
     width: 30%;
     float: right;
-    
 }
 
 #inlast {
@@ -114,8 +117,8 @@ aside {
     border: 2px;
     margin: 0;
     border-style: solid;
-    border-color: orange;
-    color: orange;
+    border-color: #FFA500;
+    color: #FFA500;
     text-align: center;
     font-size: 15px;
     margin-left: 70px;
@@ -123,8 +126,8 @@ aside {
 }
 
 .box {
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
     width: 100px;
     padding: 5px;
     text-align: center;
@@ -132,51 +135,64 @@ aside {
     font-family: sans-serif;
     font-weight: bold;
 }
+
 #normal {
     text-align: left;
 }
+
 img {
     border-radius: 50%;
     width: 200px;
-    height:200px;
+    height: 200px;
     float: left;
     margin-top: 100px;
 }
-ul.b{
+
+ul.b {
     list-style-type: none;
     float: left;
-    color: white;
-    display: block;
+    color: #fff;
+    display: #000;
     background-color: #000;
-    color: white;
 }
+
 .listtwo {
     float: left;
+    display: block;
 }
+
 .listleft {
     text-align: left;
-    width: 50%;
+    width: 100%;
+    display: block;
 }
+
 .listright {
     text-align: right;
-    width: 50%;
+    width: 100%;
+    display: block;
 }
+
 #sectwo {
     width: 70%;
     float: left;
 }
-.image { 
-   position: relative; 
-   width: 100%; /* for IE 6 */
+
+.image {
+    position: relative;
+    width: 100%;
+   
 }
-#inimg { 
-   top: 255px;
+
+#inimg {
+    top: 255px;
     width: 100%;
     color: #E72121;
     position: absolute;
     font-size: 15px;
     left: 49px;
 }
+
 #readmore {
     color: #FFA500;
     text-align: center;
@@ -184,14 +200,17 @@ ul.b{
     clear: both;
     margin-bottom: 50px;
 }
+
 #cchat {
     font-size: 30px;
     font-family: fantasy;
     float: left;
     text-align: left;
-    color: orange;
+    color: #FFA500;
 }
-#footleft {
-     float: right;
 
+.footleft {
+    float: right;
+    display: block;
 }
+

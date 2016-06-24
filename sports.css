@@ -75,6 +75,7 @@ h1 {
     color: #fff;
     text-align: center;
     padding: 5px;
+    margin-bottom: 0px;
 }
 
 #match {
@@ -99,7 +100,7 @@ h2 {
     text-align: center;
     padding: 24px;
     height: 52px;
-    margin-top: -16px;
+    margin-top: 0px;
     font: bold 25px sans-serif
 }
 
